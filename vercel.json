@@ -1,6 +1,1 @@
-{
-      "routes": [
-              { "src": "/api/detect", "dest": "/detect.js" },
-              { "src": "/(.*)", "dest": "/$1" }
-      ]
-}
+{}
