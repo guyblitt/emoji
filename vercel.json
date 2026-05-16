@@ -1,11 +1,6 @@
 {
-    "functions": {
-          "detect.js": {
-                  "runtime": "@vercel/node@3"
-          }
-    },
-    "routes": [
-          { "src": "/api/detect", "dest": "/detect.js" },
-          { "src": "/(.*)", "dest": "/$1" }
-    ]
+      "routes": [
+              { "src": "/api/detect", "dest": "/detect.js" },
+              { "src": "/(.*)", "dest": "/$1" }
+      ]
 }
